@@ -67,9 +67,9 @@ The purpose of this repository is to:
 | NumPy | Completed |
 | Pandas | Completed |
 | Data Visualization | Completed |
-| Data Preprocessing | In Progress |
-| Machine Learning | In Progress |
-| Deep Learning | Upcoming |
+| Data Preprocessing | Completed |
+| Machine Learning | Completed |
+| Deep Learning | Completed |
 | AI Projects | Ongoing |
 
 ---
