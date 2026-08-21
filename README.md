@@ -2,7 +2,7 @@
 
 A practical portfolio documenting my journey in Artificial Intelligence and Machine Learning, with a focus on building, understanding, and deploying real-world AI systems.
 
-This repository contains hands-on implementations, experiments, assignments, notebooks, and projects covering the complete AI development workflow — from data preprocessing and classical machine learning to deep learning, computer vision, NLP, Large Language Models, Retrieval-Augmented Generation, and AI application development.
+This repository contains hands-on implementations, experiments, assignments, notebooks, and projects covering the complete AI development workflow  from data preprocessing and classical machine learning to deep learning, computer vision, NLP, Large Language Models, Retrieval-Augmented Generation, and AI application development.
 
 The goal is not only to train models, but to understand how they work, evaluate their limitations, debug them, and gradually turn them into practical AI solutions.
 
