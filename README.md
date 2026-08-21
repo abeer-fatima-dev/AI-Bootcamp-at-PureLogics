@@ -1,126 +1,214 @@
-# AI & Machine Learning Learning Repository
+# AI Engineering Learning
 
-## Overview
+A practical portfolio documenting my journey in Artificial Intelligence and Machine Learning, with a focus on building, understanding, and deploying real-world AI systems.
 
-Welcome to my AI & Machine Learning learning repository.
+This repository contains hands-on implementations, experiments, assignments, notebooks, and projects covering the complete AI development workflow — from data preprocessing and classical machine learning to deep learning, computer vision, NLP, Large Language Models, Retrieval-Augmented Generation, and AI application development.
 
-This repository serves as a structured collection of my learning journey in Artificial Intelligence, Machine Learning, Data Science, and Python programming. It contains hands-on exercises, assignments, notebooks, and projects completed while exploring fundamental and advanced AI concepts.
-
-The primary goal of this repository is to strengthen my technical foundation, apply theoretical concepts through practical implementation, and continuously build a portfolio of well-organized projects.
+The goal is not only to train models, but to understand how they work, evaluate their limitations, debug them, and gradually turn them into practical AI solutions.
 
 ---
 
-## Repository Contents
+## About This Repository
 
-This repository includes work related to:
+This repository represents my progression from foundational programming and data science concepts toward AI engineering.
 
-- Python Programming
-- NumPy
-- Pandas
-- Data Cleaning & Preprocessing
-- Exploratory Data Analysis (EDA)
-- Data Visualization
-- Machine Learning Algorithms
-- Deep Learning
+The work is organized around practical implementation rather than purely theoretical study.
+
+It includes:
+
+- Python programming and problem solving
+- Data analysis and preprocessing
+- Exploratory Data Analysis
+- Machine Learning
+- Unsupervised Learning
 - Feature Engineering
 - Model Evaluation
-- Jupyter Notebooks
-- Mini Projects
-- Practice Assignments
-
----
-
-## Technologies & Tools
-
-| Category | Technologies |
-|----------|--------------|
-| Programming | Python |
-| Data Analysis | NumPy, Pandas |
-| Visualization | Matplotlib |
-| Machine Learning | Scikit-learn |
-| Deep Learning | TensorFlow |
-| Development | Jupyter Notebook, VS Code |
-| Version Control | Git, GitHub |
-
----
-
-## Learning Objectives
-
-The purpose of this repository is to:
-
-- Build a strong foundation in Python programming.
-- Understand data manipulation using NumPy and Pandas.
-- Learn data visualization techniques.
-- Explore machine learning algorithms.
-- Develop deep learning models.
-- Practice writing clean and maintainable code.
-- Build real-world AI projects.
-- Document continuous learning and progress.
-
----
-
-## Current Progress
-
-| Topic | Status |
-|-------|--------|
-| Python Programming | Completed |
-| NumPy | Completed |
-| Pandas | Completed |
-| Data Visualization | Completed |
-| Data Preprocessing | Completed |
-| Machine Learning | Completed |
-| Deep Learning | Completed |
-| AI Projects | Ongoing |
-
----
-
-## Repository Philosophy
-
-This repository is maintained with the following principles:
-
-- Clean and readable code
-- Well-structured project organization
-- Continuous improvement
-- Practical implementation of concepts
-- Consistent documentation
-
-Each project represents a milestone in my journey toward becoming a skilled AI Engineer.
-
----
-
-## Future Plans
-
-Upcoming additions include:
-
-- Supervised Learning Projects
-- Unsupervised Learning Projects
-- Deep Learning Applications
-- Computer Vision Projects
+- Deep Learning
+- Computer Vision
+- Transfer Learning
+- Object Detection
+- Image Segmentation
 - Natural Language Processing
-- Model Deployment
-- End-to-End Machine Learning Projects
+- Transformers
+- Attention Mechanisms
+- Large Language Models
+- Prompt Engineering
+- Prompt Evaluation and Security
+- Fine-tuning GPT-2
+- Retrieval-Augmented Generation
+- Vector Databases
+- AI Pipelines
+- REST API development
+- Model deployment
+- Agentic AI concepts
+- MCP-based AI systems
+- End-to-end AI projects
 
 ---
 
-## Contributing
+# Technical Areas
 
-This repository is primarily intended for learning and portfolio development.
+## Python & Data Science
 
-Constructive feedback, suggestions, and improvements are always appreciated.
+Hands-on work with:
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Data Cleaning
+- Data Transformation
+- Feature Engineering
+- Exploratory Data Analysis
+- Data Visualization
+- Statistical Analysis
 
 ---
 
-## License
+## Machine Learning
 
-This repository is created for educational and learning purposes.
+Implemented and explored:
+
+- Supervised Learning
+- Unsupervised Learning
+- Classification
+- Decision Trees
+- Feature Selection
+- K-Means Clustering
+- DBSCAN
+- Hierarchical Clustering
+- Apriori
+- PCA
+- Model Evaluation
+- Train/Test Splitting
+- Cross Validation
+- Pipelines
+- Hyperparameter experimentation
+
+Libraries:
+
+- Scikit-learn
+- Pandas
+- NumPy
 
 ---
 
-## Contact
+## Deep Learning
 
-If you would like to connect, discuss AI, Machine Learning, or collaborate on projects, feel free to reach out through GitHub.
+Worked with neural-network architectures and concepts including:
 
-Thank you for visiting this repository.
-## ⭐ If you find this repository useful...
+- Neural Networks
+- Forward Propagation
+- Weights and Biases
+- Activation Functions
+- Backpropagation
+- Gradient Descent
+- CNNs
+- Convolution
+- Pooling
+- Batch Normalization
+- Dropout
+- Model Evaluation
 
-Don't forget to **Star ⭐ this repository!**
+Frameworks:
+
+- TensorFlow
+- Keras
+- PyTorch
+
+---
+
+# Computer Vision
+
+Explored practical computer vision problems including:
+
+- Image Classification
+- CNN-based Classification
+- Transfer Learning
+- VGG16
+- VGG19
+- CIFAR-10
+- Cats vs Dogs Classification
+- Object Detection
+- Bounding Boxes
+- Image Segmentation
+- U-Net
+- Semantic Segmentation
+- Image Preprocessing
+- Data Augmentation
+
+The focus is on understanding how visual information moves through a deep learning model and how different architectures solve different computer vision problems.
+
+---
+
+# Natural Language Processing
+
+Explored NLP concepts including:
+
+- Text Preprocessing
+- Tokenization
+- Tokens
+- Embeddings
+- Text Classification
+- Named Entity Recognition
+- Text Summarization
+- Machine Translation
+- Paraphrasing
+- Sentiment Analysis
+- Transformer Architecture
+- Attention Mechanism
+
+---
+
+# Large Language Models
+
+Current work also includes modern LLM concepts and applications:
+
+- Large Language Model Architecture
+- Tokens and Tokenization
+- Embeddings
+- Attention
+- Transformer Architecture
+- Prompt Engineering
+- Prompt Evaluation
+- Prompt Security
+- Prompt Injection
+- GPT-2
+- Fine-tuning
+- Text Generation
+- Hugging Face Transformers
+- Hugging Face Pipelines
+
+I have also experimented with fine-tuning GPT-2 on a custom text corpus and generating domain-specific text.
+
+---
+
+# Retrieval-Augmented Generation
+
+Exploring RAG systems to connect Large Language Models with external knowledge.
+
+Core concepts include:
+
+```text
+Documents
+    |
+    v
+Text Chunking
+    |
+    v
+Embeddings
+    |
+    v
+Vector Database
+    |
+    v
+Similarity Search
+    |
+    v
+Relevant Context
+    |
+    v
+LLM
+    |
+    v
+Grounded Response
