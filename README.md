@@ -1,216 +1,265 @@
-# AI Engineering Learning
+# AI Engineering Bootcamp
 
-A practical portfolio documenting my journey in Artificial Intelligence and Machine Learning, with a focus on building, understanding, and deploying real-world AI systems.
+A hands-on repository documenting my journey through **AI Engineering**, from core Machine Learning concepts to modern Generative AI, RAG, AI Agents, LangChain, LangGraph, MCP, Deep Learning, APIs, and practical AI application development.
 
-This repository contains hands-on implementations, experiments, assignments, notebooks, and projects covering the complete AI development workflow  from data preprocessing and classical machine learning to deep learning, computer vision, NLP, Large Language Models, Retrieval-Augmented Generation, and AI application development.
-
-The goal is not only to train models, but to understand how they work, evaluate their limitations, debug them, and gradually turn them into practical AI solutions.
+This repository is designed not only to showcase my work, but also to serve as a structured learning reference for anyone exploring AI Engineering.
 
 ---
 
-## About This Repository
+## Overview
 
-This repository represents my progression from foundational programming and data science concepts toward AI engineering.
+The bootcamp focuses on learning by building.
 
-The work is organized around practical implementation rather than purely theoretical study.
+Instead of studying concepts in isolation, the repository contains practical implementations, notebooks, exercises, experiments, and projects that demonstrate how different parts of an AI system work together.
 
-It includes:
-
-- Python programming and problem solving
-- Data analysis and preprocessing
-- Exploratory Data Analysis
-- Machine Learning
-- Unsupervised Learning
-- Feature Engineering
-- Model Evaluation
-- Deep Learning
-- Computer Vision
-- Transfer Learning
-- Object Detection
-- Image Segmentation
-- Natural Language Processing
-- Transformers
-- Attention Mechanisms
-- Large Language Models
-- Prompt Engineering
-- Prompt Evaluation and Security
-- Fine-tuning GPT-2
-- Retrieval-Augmented Generation
-- Vector Databases
-- AI Pipelines
-- REST API development
-- Model deployment
-- Agentic AI concepts
-- MCP-based AI systems
-- End-to-end AI projects
-
----
-
-# Technical Areas
-
-## Python & Data Science
-
-Hands-on work with:
-
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Data Cleaning
-- Data Transformation
-- Feature Engineering
-- Exploratory Data Analysis
-- Data Visualization
-- Statistical Analysis
-
----
-
-## Machine Learning
-
-Implemented and explored:
-
-- Supervised Learning
-- Unsupervised Learning
-- Classification
-- Decision Trees
-- Feature Selection
-- K-Means Clustering
-- DBSCAN
-- Hierarchical Clustering
-- Apriori
-- PCA
-- Model Evaluation
-- Train/Test Splitting
-- Cross Validation
-- Pipelines
-- Hyperparameter experimentation
-
-Libraries:
-
-- Scikit-learn
-- Pandas
-- NumPy
-
----
-
-## Deep Learning
-
-Worked with neural-network architectures and concepts including:
-
-- Neural Networks
-- Forward Propagation
-- Weights and Biases
-- Activation Functions
-- Backpropagation
-- Gradient Descent
-- CNNs
-- Convolution
-- Pooling
-- Batch Normalization
-- Dropout
-- Model Evaluation
-
-Frameworks:
-
-- TensorFlow
-- Keras
-- PyTorch
-
----
-
-# Computer Vision
-
-Explored practical computer vision problems including:
-
-- Image Classification
-- CNN-based Classification
-- Transfer Learning
-- VGG16
-- VGG19
-- CIFAR-10
-- Cats vs Dogs Classification
-- Object Detection
-- Bounding Boxes
-- Image Segmentation
-- U-Net
-- Semantic Segmentation
-- Image Preprocessing
-- Data Augmentation
-
-The focus is on understanding how visual information moves through a deep learning model and how different architectures solve different computer vision problems.
-
----
-
-# Natural Language Processing
-
-Explored NLP concepts including:
-
-- Text Preprocessing
-- Tokenization
-- Tokens
-- Embeddings
-- Text Classification
-- Named Entity Recognition
-- Text Summarization
-- Machine Translation
-- Paraphrasing
-- Sentiment Analysis
-- Transformer Architecture
-- Attention Mechanism
-
----
-
-# Large Language Models
-
-Current work also includes modern LLM concepts and applications:
-
-- Large Language Model Architecture
-- Tokens and Tokenization
-- Embeddings
-- Attention
-- Transformer Architecture
-- Prompt Engineering
-- Prompt Evaluation
-- Prompt Security
-- Prompt Injection
-- GPT-2
-- Fine-tuning
-- Text Generation
-- Hugging Face Transformers
-- Hugging Face Pipelines
-
-I have also experimented with fine-tuning GPT-2 on a custom text corpus and generating domain-specific text.
-
----
-
-# Retrieval-Augmented Generation
-
-Exploring RAG systems to connect Large Language Models with external knowledge.
-
-Core concepts include:
+The learning path progresses from:
 
 ```text
-Documents
-    |
-    v
-Text Chunking
-    |
-    v
-Embeddings
-    |
-    v
-Vector Database
-    |
-    v
-Similarity Search
-    |
-    v
-Relevant Context
-    |
-    v
-LLM
-    |
-    v
-Grounded Response
+Python & Data
+      ↓
+Machine Learning
+      ↓
+Deep Learning
+      ↓
+Generative AI & LLMs
+      ↓
+RAG & Embeddings
+      ↓
+AI Agents
+      ↓
+LangChain & LangGraph
+      ↓
+MCP & Tool Integration
+      ↓
+Production-Oriented AI Applications
+```
 
-If you find this repository useful or interesting, consider giving it a star ⭐. Your support and feedback are genuinely appreciated and motivate me to keep building, learning, and sharing more AI projects. 
+---
+
+## What You'll Find Here
+
+### Machine Learning
+
+- Data preprocessing
+- Feature engineering
+- Regression and classification
+- Clustering
+- Dimensionality reduction
+- Model evaluation
+- ML pipelines
+
+### Deep Learning
+
+- Neural networks
+- CNNs
+- TensorFlow & Keras
+- Transfer learning
+- Image augmentation
+- Computer Vision workflows
+
+### Generative AI
+
+- Large Language Models
+- Prompt engineering
+- Tool calling
+- Function calling
+- Structured AI workflows
+
+### Retrieval-Augmented Generation
+
+- Document chunking
+- Embeddings
+- Semantic search
+- Vector retrieval
+- Context-aware LLM responses
+
+### AI Agents
+
+- ReAct workflows
+- Tool-using agents
+- Conversation memory
+- Multi-step reasoning
+- Multi-agent systems
+- Guardrails
+- Human-in-the-loop workflows
+
+### LangChain & LangGraph
+
+- Agent orchestration
+- Tools and prompts
+- Shared state
+- Nodes and edges
+- Routing
+- Multi-step AI workflows
+
+### Model Context Protocol
+
+- MCP servers
+- MCP tools
+- MCP resources
+- Client-server communication
+- MCP Inspector
+- External tool integration
+
+### APIs & Deployment
+
+- Flask
+- FastAPI
+- REST APIs
+- Model inference endpoints
+- Input validation
+- Error handling
+
+---
+
+## Technologies
+
+### AI / ML
+
+`Python` `Scikit-learn` `TensorFlow` `Keras`
+
+### Data
+
+`NumPy` `Pandas` `Matplotlib`
+
+### Generative AI
+
+`LLMs` `RAG` `Embeddings` `Semantic Search`
+
+### Agentic AI
+
+`LangChain` `LangGraph` `MCP` `Tool Calling`
+
+### Backend
+
+`FastAPI` `Flask` `REST APIs`
+
+### Development
+
+`Git` `GitHub` `VS Code` `Google Colab` `Jupyter Notebook`
+
+---
+
+## Selected Projects
+
+Some of the practical work included in this journey:
+
+- Customer Segmentation
+- K-Means, DBSCAN & Hierarchical Clustering
+- Polynomial, Ridge & Lasso Regression
+- CNN Image Classification
+- Transfer Learning with VGG16
+- Content-Based Image Retrieval
+- ML Model REST API
+- RAG-based workflows
+- AI Tool-Calling Agents
+- Multi-Agent Research → Write → Review Pipeline
+- AI Guardrails & Human Approval Workflows
+- Mini CRM MCP Server
+- AI Learning Tracker MCP Server
+
+---
+
+## Repository Structure
+
+```text
+AI-Engineering-Bootcamp/
+│
+├── Machine-Learning/
+├── Deep-Learning/
+├── Computer-Vision/
+├── Generative-AI/
+├── RAG/
+├── AI-Agents/
+├── LangChain/
+├── LangGraph/
+├── MCP/
+├── APIs/
+└── README.md
+```
+
+> The structure may continue to evolve as new concepts and projects are added.
+
+---
+
+## How to Use This Repository
+
+If you're learning AI Engineering, you can use this repository as a practical roadmap.
+
+A good order is:
+
+1. Start with Python and data handling
+2. Move into Machine Learning
+3. Learn model evaluation and feature engineering
+4. Explore Deep Learning
+5. Study Generative AI and LLMs
+6. Understand RAG and embeddings
+7. Build tool-using AI Agents
+8. Learn LangChain and LangGraph
+9. Explore MCP and external integrations
+10. Build complete AI applications
+
+---
+
+## What I Gained From This Journey
+
+This bootcamp helped me move beyond individual models and understand **complete AI systems**.
+
+I developed practical experience in:
+
+- Building end-to-end AI workflows
+- Evaluating and improving models
+- Integrating LLMs with external tools
+- Designing RAG pipelines
+- Building agentic systems
+- Managing state and workflows
+- Adding guardrails and human approval
+- Exposing AI functionality through APIs
+- Connecting AI applications with external systems using MCP
+
+---
+
+## Acknowledgements
+
+Grateful to **PureLogics** and **TopSkills** for providing a practical and industry-focused learning environment.
+
+Special appreciation to the mentors and technical leads who supported this journey and helped strengthen both technical understanding and problem-solving skills.
+
+---
+
+## What's Next?
+
+This repository is still growing.
+
+My next focus is on:
+
+- Production-grade RAG systems
+- Advanced AI Agents
+- Scalable backend systems
+- Cloud AI infrastructure
+- System design
+- Real-world AI products
+
+**More projects, deeper learning, and bigger engineering challenges are coming next.**
+
+---
+
+## Author
+
+**Abeer Fatima**
+
+AI/ML Engineer focused on building practical AI-powered systems across Machine Learning, Generative AI, Agentic AI, and Software Engineering.
+
+### Connect
+
+- GitHub: `https://github.com/abeer-fatima-dev`
+- LinkedIn: `https://www.linkedin.com/in/abeer-fatima-dev/`
+
+---
+
+## Support
+
+If you find this repository useful, consider giving it a star.
+
+It helps support the repository and motivates me to continue sharing more AI Engineering projects and implementations.
+```
